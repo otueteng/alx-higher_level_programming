@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines a Rectangle class."""
 
+
 class Rectangle:
     """this represents a rectangle"""
     number_of_instances = 0
@@ -35,6 +36,7 @@ class Rectangle:
     def height(self):
         """gets the height of the Rectangle."""
         return self.__height
+
     @height.setter
     def height(self, value):
         """sets height attribute"""
