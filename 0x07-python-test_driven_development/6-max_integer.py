@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module to find the max integer in a list
+"""This module to finds the max integer in a list
 """
 
 
