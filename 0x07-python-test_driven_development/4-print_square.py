@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines a square-printing function..
+This is the "4-print_square" module. this module supplies one function, print_square(size).
 """
 
 

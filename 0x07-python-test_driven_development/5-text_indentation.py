@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines a text-indentation function.
+This is the "5-test_indentation" module. this module supplies one function, text_indentation(text).
 """
 
 def text_indentation(text):

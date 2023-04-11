@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines a matrix multiplication function using NumPy.
+This module multiply 2 matricies using numpy module
 """
 import numpy
 
