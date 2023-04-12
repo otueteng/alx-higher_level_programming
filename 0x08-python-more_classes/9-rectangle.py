@@ -1,32 +1,28 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class."""
+"""A class that defines a rectangle"""
+
 
 class Rectangle:
     """this represents a rectangle"""
-
-    Attributes:
-        number_of_instances (int): The number of Rectangle instances.
-        print_symbol (any): The symbol used for string representation.
-    """
     number_of_instances = 0
     print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """Initializing this rectangle class
         Args:
-            width (int): The width of the new rectangle.
-            height (int): The height of the new rectangle.
+            width: represents the width of the rectangle
+            height: represents the height of the rectangle
         Raises:
             TypeError: if size is not integer
             ValueError: if size is less than zero
         """
-        type(self).number_of_instances += 1
         self.width = width
         self.height = height
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
-        """gets the width of the Rectangle."""
+        """retrieves width attribute"""
         return self.__width
 
     @width.setter
@@ -40,11 +36,12 @@ class Rectangle:
 
     @property
     def height(self):
-        """gets the height of the Rectangle."""
+        """retrieves height attribute"""
         return self.__height
 
     @height.setter
     def height(self, value):
+        """sets height attribute"""
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
@@ -81,7 +78,7 @@ class Rectangle:
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
     def __del__(self):
-        """Print a message for every deletion of a Rectangle."""
+        """prints a message for every object that is deleted"""
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
 
