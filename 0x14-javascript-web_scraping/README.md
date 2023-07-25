@@ -1,4 +1,4 @@
-# `Javascript-web_scraping`
+Solutions to tasks on JavaScript - Web scraping
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--Hee-36uP--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/njjyqjkdad411h6ysa2u.jpg) 
 
